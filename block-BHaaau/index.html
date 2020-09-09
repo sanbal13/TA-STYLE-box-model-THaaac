@@ -1,0 +1,123 @@
+<!---
+### Create a page according to the layout shown below
+
+![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+
+#### Problems for exercise 2 in the layout
+
+- Each parent container has width of 600px and border of 1px;
+- Each children box has width 180px and height 100px as well as margin of 10px;
+- Each child box which is having border has border-width 1px.
+- Note in the first container the boxes do not have any border.
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+--->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <title>Assignment Level - VI | Box Model</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="head">
+            The Box Model, Box-sizing & Box-shadow
+        </h1>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <article>
+                <header>
+                    <h2 class="head">
+                        Exercise1
+                    </h2>
+                </header>
+                <div class="box-exercise1">
+
+                </div>
+                <div class = "circle-group">
+                    <div class = "circle circle-content"></div>
+                    <span class = "caption">Content</span>
+                    <div class = "circle circle-padding"></div>
+                    <span class = "caption">Padding</span>
+                    <div class = "circle circle-border"></div>
+                    <span class = "caption">Border</span>
+                    <div class = "circle circle-margin"></div>
+                    <span class = "caption">Margin</span>
+                </div>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <article class = "article1">
+                <header class ="head">
+                    <h2>
+                        Exercise2
+                    </h2>
+                    <h3>
+                        no border on these boxes.
+                    </h3>
+                </header>
+                <div class = "box-big">
+                    <div class = "box-small">
+                    
+                    </div>
+                    <div class = "box-small">
+                    
+                    </div>
+                    <div class = "box-small">
+                    
+                    </div>
+                </div>
+            </article>    
+            <hr>
+            <article class = "article2">
+                <header class ="head">
+                    <h3>
+                        1px border on these boxes.
+                    </h3>
+                </header>
+                <div class = "box-big">
+                    <div class = "box-small box-small-with-border">
+                    
+                    </div>
+                    <div class = "box-small box-small-with-border">
+                    
+                    </div>
+                    <div class = "box-small box-small-with-border">
+                    
+                    </div>
+                </div>
+            </article>    
+            <hr>
+            <article class = "article3">
+                <header class ="head">
+                    <h3>
+                        1px border on these boxes but they are in same line.
+                    </h3>
+                </header>
+                <div class = "box-big">
+                    <div class = "box-small box-small-with-border border-sizing">
+                    
+                    </div>
+                    <div class = "box-small box-small-with-border border-sizing">
+                    
+                    </div>
+                    <div class = "box-small box-small-with-border border-sizing">
+                    
+                    </div>
+                </div>
+            </article>    
+
+
+        </section>
+    </main>
+</body>
+
+</html>

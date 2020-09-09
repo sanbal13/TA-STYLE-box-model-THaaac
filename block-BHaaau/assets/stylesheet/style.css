@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+
+body{
+    width : 700px;
+    margin : 0 auto;
+}
+
+
+.head{
+    text-align : center;        
+    margin : 40px;
+}
+h1 {
+    font-size : 36px;
+    
+}
+h2 {
+    font-size : 28px;
+}
+
+h3 {
+    font-size : 18px;
+}
+
+hr {
+    border : none;
+    width: 500px;
+    border-top : 1px dashed grey; 
+    
+}
+
+
+.box-exercise1{
+    
+    width : 150px;
+    height : 150px;
+    background-color: aquamarine;
+    border : 15px solid lightblue;
+    outline : 3px solid black;
+    box-shadow : 0 0 0 18px pink;
+    margin-left : 260px;
+    margin-top : 46px;
+    margin-bottom : 46px;
+    
+}
+
+.circle{
+    background-color: lightgreen;
+    width : 10px;
+    height :10px;
+    border-radius: 50%;
+    display : inline-block;
+}
+.circle-group{
+    margin-left : 200px;
+    margin-top : 40px;
+    margin-bottom: 40px;
+}
+.circle-content{
+    background-color: aquamarine;
+}
+
+.circle-padding{
+    background-color: lightblue;
+}
+
+.circle-border{
+    background-color: black;
+}
+
+.circle-margin{
+    background-color: pink;
+}
+.caption{
+    font-size : 10px;
+    margin-right : 20px;
+}
+h3 {
+    margin-top : 10px;
+}
+
+.box-big{
+    width : 600px;
+    height :;
+    border : 1px solid black; 
+    font-size: 0;
+    margin-left : 50px;
+    margin-bottom : 40px;
+}
+
+.box-small{
+    width :180px;
+    height : 100px;
+    margin :10px;
+    background-color: rgb(179, 175, 175);
+    display : inline-block; 
+    
+}
+
+.box-small-with-border{
+    border : 1px solid black;
+}
+
+.border-sizing {
+    box-sizing: border-box;
+}
