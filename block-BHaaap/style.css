@@ -79,7 +79,8 @@ table {
  #circle {
     width:400px;
     height :400px;
-     background-color: red;
+    background-color: red;
+    border-radius: 50%;
  }
  footer{
      text-align: center;
