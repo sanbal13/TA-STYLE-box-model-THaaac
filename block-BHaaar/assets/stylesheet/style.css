@@ -49,78 +49,32 @@ table {
 
 /* Custom Style */
 .main-section {
- margin-left: 240px;
- margin-bottom: 10px;
- margin-top : 10px
-}
-
-.div-height {
-    height : 240px;
-     padding : 20px; 
-     margin : 20px;
-    
+ margin : 10px 300px;
 }
 
 .block-inline{
     display : inline-block;
     margin : 10px;
     padding : 20px;
-   
+    height : 250px;
+    color : white;   
 }
 
-.top-first{
-    width :480px;
-    height : 240px;
-    color : white;
-    background-color: rgb(209, 37, 66);
-}
-.top-second{
+.small-box {
     width :240px;
-    height : 240px;
-    color : white;
     background-color: rgb(13, 83, 48);
 }
-.top-third{
-    width :240px;
-    height : 240px;
-    color : white;
-    background-color: rgb(52, 24, 97);
-}
 
-.middle-first{
-    width :240px;
-    height : 240px;
-    color : white;
-    background-color: rgb(69, 148, 238);
-}
-.middle-second{
+.big-box {
     width :480px;
-    height : 240px;
-    color : white;
-    background-color: rgb(8, 138, 73);
+    background-color: rgb(209, 37, 66);
 }
-.middle-third{
-    width :240px;
-    height : 240px;
-    color : white;
-    background-color: rgb(91, 243, 124);
-}
-
-.bottom-first{
-    width :240px;
-    height : 240px;
-    color : white;
-    background-color : rgb(245, 245, 8);
-}
-.bottom-second{
-    width :240px;
-    height : 240px;
-    color : white;
-    background-color: rgb(243, 84, 10);
-}
-.bottom-third{
-    width :480px;
-    height : 240px;
-    color : white;
-    background-color: rgb(202, 26, 55);
-}
+.top-first{ background-color: rgb(209, 37, 66);}
+.top-second{ background-color: rgb(13, 83, 48);}
+.top-third{ background-color: rgb(52, 24, 97);}
+.middle-first{ background-color: rgb(69, 148, 238);}
+.middle-second{ background-color: rgb(8, 138, 73);}
+.middle-third{ background-color: rgb(91, 243, 124);}
+.bottom-first{ background-color : rgb(245, 245, 8);}
+.bottom-second{ background-color: rgb(243, 84, 10);}
+.bottom-third{ background-color: rgb(202, 26, 55);}
